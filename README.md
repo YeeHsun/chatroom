@@ -53,14 +53,18 @@ make
 
 ![image](https://github.com/YeeHsun/chatroom/blob/main/image/workflow.PNG?raw=true)
 ## Explain the solution of synchronization problems in this project
-### message in shared memory might be changed by new message while not all the clients receive the old message
-```
+### synchronization problems :
+message in shared memory might be changed by new message while not all the clients receive the old message
+```c
 sem_wait(&mutex); //semaphore wait
 while(change); // wait until all the threads receive the message, then we can change the content in shared memory
 "critical section"
 change=1;
 sem_post(&mutex); //semaphore signal
 ```
+* mutual exclusive : only one thread(client) can change the message content in shared memory at one time
+* progress : thread can access to shared momory if all the clients receive the old message (change=0)
+* bounded waiting
 ## Discuss anything as possible
 (1) user interface
 (2) have read notice
