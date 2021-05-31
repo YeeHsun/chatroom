@@ -62,3 +62,6 @@ change=1;
 sem_post(&mutex); //semaphore signal
 ```
 ## Discuss anything as possible
+(1) user interface
+(2) have read notice
+(3) record chatting history
