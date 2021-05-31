@@ -58,6 +58,7 @@ make
 sem_wait(&mutex); //semaphore wait
 while(change); // wait until all the threads receive the message, then we can change the content in shared memory
 "critical section"
+change=1;
 sem_post(&mutex); //semaphore signal
 ```
 ## Discuss anything as possible
