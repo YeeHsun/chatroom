@@ -67,5 +67,7 @@ sem_post(&mutex); //semaphore signal
 * bounded waiting
 ## Discuss anything as possible
 (1) user interface
+
 (2) have read notice
+
 (3) record chatting history
