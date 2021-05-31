@@ -50,8 +50,10 @@ make
 ![image](https://github.com/YeeHsun/chatroom/blob/main/image/block%20diagram.PNG?raw=true)
 
 * workflow
+
+![image](https://github.com/YeeHsun/chatroom/blob/main/image/workflow.PNG?raw=true)
 ## Explain the solution of synchronization problems in this project
-### message in shared memory might be changed while not all the clients receive the message
+### message in shared memory might be changed by new message while not all the clients receive the old message
 ```
 sem_wait(&mutex); //semaphore wait
 while(change); // wait until all the threads receive the message, then we can change the content in shared memory
