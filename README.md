@@ -45,7 +45,11 @@ make
  * this chatroom accommodates max to 10 clients
  
 ## Briefly describe the workflow and architecture of the system
+* architecture
+
 ![image](https://github.com/YeeHsun/chatroom/blob/main/image/block%20diagram.PNG?raw=true)
+
+* workflow
 ## Explain the solution of synchronization problems in this project
 ### message in shared memory might be changed while not all the clients receive the message
 ```
