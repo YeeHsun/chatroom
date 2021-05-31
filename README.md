@@ -13,10 +13,12 @@ gcc -pthread client.c -o client
 ```
 ./server
 ```
+![image](https://github.com/YeeHsun/chatroom/blob/main/image/server.PNG?raw=true)
 * build a client
 ```
 ./client [username] 127.0.0.x
 ```
+![image](https://github.com/YeeHsun/chatroom/blob/main/image/client.PNG?raw=true)
 ### result
 ## Briefly describe the workflow and architecture of the system
 ## Explain the solution of synchronization problems in this project
