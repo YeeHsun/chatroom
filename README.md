@@ -18,29 +18,32 @@ make
 ```
 ![image](https://github.com/YeeHsun/chatroom/blob/main/image/client.PNG?raw=true)
 ### result
-* Kevin and Amy connect to the server
+(1) Kevin and Amy connect to the server
 
 ![image](https://github.com/YeeHsun/chatroom/blob/main/image/jump%20in%20server2.PNG?raw=true)
 
-* Kevin says "hello~Amy"
+(2) Kevin says "hello~Amy"
 
 ![image](https://github.com/YeeHsun/chatroom/blob/main/image/Kevin%20said.PNG?raw=true)
-* Amy will receive the message
+
+(3) Amy will receive the message
 
 ![image](https://github.com/YeeHsun/chatroom/blob/main/image/Amy%20recv%20message.PNG?raw=true)
-* Amy responses "hi~Kevin!"
+
+(4) Amy responses "hi~Kevin!"
 
 ![image](https://github.com/YeeHsun/chatroom/blob/main/image/Amy%20response.PNG?raw=true)
 
-* Kevin will receive the respond
+(5) Kevin will receive the respond
 
 ![image](https://github.com/YeeHsun/chatroom/blob/main/image/Kevin%20recv%20message.PNG?raw=true)
 
-* server receives all the messages
+(6) server receives all the messages
 
 ![image](https://github.com/YeeHsun/chatroom/blob/main/image/server%20chatroom2.PNG?raw=true)
 
-
+ * this chatroom accommodates max to 10 clients
+ 
 ## Briefly describe the workflow and architecture of the system
 ## Explain the solution of synchronization problems in this project
 ## Discuss anything as possible
