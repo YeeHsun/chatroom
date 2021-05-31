@@ -46,4 +46,11 @@ make
  
 ## Briefly describe the workflow and architecture of the system
 ## Explain the solution of synchronization problems in this project
+### message in shared memory might be changed while not all the clients receive the message
+```
+sem_wait(&mutex); //semaphore wait
+while(change); // wait until all the threads receive the message, then we can change the content in shared memory
+"critical section"
+sem_post(&mutex); //semaphore signal
+```
 ## Discuss anything as possible
