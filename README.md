@@ -28,7 +28,7 @@ make
 * Amy will receive the message
 
 ![image](https://github.com/YeeHsun/chatroom/blob/main/image/Amy%20recv%20message.PNG?raw=true)
-* Amy responses "hi~Kevin"
+* Amy responses "hi~Kevin!"
 
 ![image](https://github.com/YeeHsun/chatroom/blob/main/image/Amy%20response.PNG?raw=true)
 
@@ -36,11 +36,11 @@ make
 
 ![image](https://github.com/YeeHsun/chatroom/blob/main/image/Kevin%20recv%20message.PNG?raw=true)
 
-* server sees all the messages
+* server receives all the messages
 
 ![image](https://github.com/YeeHsun/chatroom/blob/main/image/server%20chatroom2.PNG?raw=true)
 
-* server will receive the message too
+
 ## Briefly describe the workflow and architecture of the system
 ## Explain the solution of synchronization problems in this project
 ## Discuss anything as possible
