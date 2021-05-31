@@ -62,7 +62,7 @@ while(change); // wait until all the threads receive the message, then we can ch
 change=1;
 sem_post(&mutex); //semaphore signal
 ```
-* mutual exclusive : only one thread(client) can change the message content in shared memory at one time
+* mutual exclusive : only one thread (client) can change the message content in shared memory at one time
 * progress : thread can access to shared momory if all the clients receive the old message (change=0)
 * bounded waiting
 ## Discuss anything as possible
