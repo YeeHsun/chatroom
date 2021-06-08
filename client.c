@@ -17,6 +17,7 @@ char user_name[MAX];
 
 void*send_message(void*arg)
 {
+    //The (int *) part casts the variable number to a pointer to an int, then the * in front dereferences it to an int.
     int socketfd = *(int*)arg;
     int send_name_to_server = 1;
     char messagebuffer[MAX];
