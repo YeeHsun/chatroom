@@ -154,7 +154,7 @@ int main(int argc , char *argv[])
     else
         printf("listening to port 8787......\n");
 	pthread_t thread_send,thread_recv;
-    int *forClientfd;
+    int *forClientfd;  //connect or not
     int client_len = sizeof(clientInfo);
     int clientfd_array[max_users];
 
