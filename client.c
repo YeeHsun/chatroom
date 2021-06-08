@@ -28,6 +28,7 @@ void*send_message(void*arg)
         //send user name to server first
         if(send_name_to_server)
         { 
+	    //ssize_t send(int sockfd, const void *buf, size_t len, int flags);
             send(socketfd,messagebuffer,sizeof(messagebuffer),0);
             send_name_to_server = 0;
         }
@@ -50,6 +51,7 @@ void*recv_message(void*arg)
     char messagebuffer[MAX]; 
     for(;;)
     {
+	//ssize_t recv(int sockfd, void *buf, size_t len, int flags);
         recv(socketfd,messagebuffer,sizeof(messagebuffer),0);
         printf("\n%s",messagebuffer);
         bzero(messagebuffer,sizeof(messagebuffer));
